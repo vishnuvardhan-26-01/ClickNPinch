@@ -1,0 +1,12 @@
+# ClickNPinch — Gesture-Based Virtual Mouse
+# Tested on Windows 10/11 with Python 3.13 (also compatible with 3.9–3.12).
+#
+# MediaPipe 1.1.0 is the first release shipping Python 3.13 wheels; it removed
+# the legacy `mediapipe.solutions` API, and this project uses the newer
+# `mediapipe.tasks` Hand Landmarker API accordingly.
+mediapipe>=1.1.0; python_version >= "3.13"
+mediapipe>=0.10.14,<0.11; python_version < "3.13"
+opencv-python>=4.9.0
+PySide6>=6.6.0
+PyAutoGUI>=0.9.54
+numpy>=1.26.0

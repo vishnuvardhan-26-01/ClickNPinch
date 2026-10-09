@@ -1,0 +1,86 @@
+{
+  "mouse": {
+    "sensitivity": 1.77,
+    "smoothing_alpha": 0.45,
+    "dead_zone": 0.012,
+    "acceleration": true,
+    "movement_threshold": 2.0,
+    "stationary_velocity": 0.12,
+    "stationary_time": 0.25,
+    "quantum": 3.0,
+    "zone_pad_x": 0.1,
+    "zone_pad_y": 0.1
+  },
+  "gestures": {
+    "pinch_threshold": 0.22,
+    "release_threshold": 0.3,
+    "right_pinch_threshold": 0.24,
+    "right_release_threshold": 0.3,
+    "left_click_cooldown": 0.35,
+    "right_click_cooldown": 0.4,
+    "double_click_window": 0.45,
+    "drag_hold_time": 0.45,
+    "drag_start_delay": 0.18,
+    "scroll_speed": 1.0,
+    "scroll_dead_zone": 0.02,
+    "scroll_interval": 0.05,
+    "scroll_smooth_frames": 3,
+    "max_scroll_step": 5,
+    "scroll_enter_frames": 3,
+    "scroll_exit_frames": 3,
+    "confirm_enter_frames": 3,
+    "confirm_exit_frames": 4,
+    "fist_enter_threshold": 0.95,
+    "fist_exit_threshold": 0.4,
+    "fist_threshold": 0.55,
+    "fist_cooldown": 0.8,
+    "raised_hand_y": 0.33,
+    "raised_hand_exit_y": 0.4,
+    "raised_cooldown": 0.8,
+    "fist_sensitivity": 0.55,
+    "raised_sensitivity": 0.33,
+    "thumbs_up_enter_frames": 3,
+    "thumbs_up_exit_frames": 4,
+    "thumbs_up_cooldown": 0.8,
+    "action_mappings": {}
+  },
+  "camera": {
+    "resolution_width": 640,
+    "resolution_height": 480,
+    "mirror": true,
+    "performance_mode": "performance"
+  },
+  "vision": {
+    "detection_confidence": 0.55,
+    "presence_confidence": 0.55,
+    "tracking_confidence": 0.55,
+    "max_hands": 1
+  },
+  "ui": {
+    "floating_x": 1022,
+    "floating_y": 106,
+    "start_minimized": true,
+    "launch_with_windows": false,
+    "remember_floating_position": true,
+    "compact_mode": true
+  },
+  "debug_overlay": true,
+  "show_fps": true,
+  "onboarding_complete": true,
+  "last_camera_index": 0,
+  "calibration_points": [
+    [
+      0.1,
+      0.1
+    ],
+    [
+      0.9,
+      0.9
+    ]
+  ],
+  "safe_start": false,
+  "test_mode": false,
+  "stabilization_enabled": true,
+  "presentation_mode": false,
+  "action_mappings": {}
+}
